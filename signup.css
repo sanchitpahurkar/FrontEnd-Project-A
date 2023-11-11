@@ -1,0 +1,50 @@
+* {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /*genereic style properties of Sign up page*/
+}
+
+#logo {
+    margin:25px;
+}
+
+.form {
+    margin-left: 40%;
+    width:20%;      
+    align-items: center;
+} /*align the form to the center using margin and width properties*/
+
+.form h1 {
+    font-size: 45px; 
+}
+
+.form label {
+    font-size: 15px;
+    
+}
+
+.form input {
+    height: 48px;
+    width: 324px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border-color: #a3a3a3;
+    border-width: 0.5px;
+} /*input field for email*/
+
+.form .next-btn {
+    height: 48px;
+    width: 324px;
+    border-radius: 25px;
+    border-color: #1ED760;
+    margin-top: 20px;
+    background-color: #1ED760;
+} /*NEXT button styles*/
+
+.next-btn p {
+    background-color: #1ED760;
+    color: #121212;
+    font-size: 15px;
+}
+

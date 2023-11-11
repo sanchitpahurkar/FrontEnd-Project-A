@@ -1,5 +1,9 @@
-Figma Icon Theme Pack for Spotify : 
+Figma Icon Theme Pack for Spotify :->
 https://www.figma.com/community/file/1179053811731127469/spotify-mobile-free-icon-set
 
-Spotify Mobile UI Design and Components :
+Spotify Mobile UI Design and Components :->
 https://www.figma.com/community/file/1052832340031141040
+
+Fonts used on the Sign up page :->
+Nunito Sans Medium 500
+https://fonts.google.com/share?selection.family=Nunito+Sans:opsz,wght@6..12,500

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp | Spotify</title>
+    <link rel="stylesheet" href="style.css"> <!--generic styles sheet for Spotify-->
+    <link rel="stylesheet" href="./signup.css"> <!--page specific styles sheet for Sign Up page-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- nav starts -->
+    <div class="nav-container">
+        <nav>
+            <img src="./assets/spotify-white.png" alt="Spotify" id="logo" height="32px"> <!--Spotify logo/badge-->
+        </nav>
+    </div>
+    <!-- nav ends -->
+    <div class="form-container">
+        <div class="form"> <!--* to be centered-->
+            <h1><b>Sign up to start Listening</b></h1>
+            <br><br>
+            <label for="html">Email Address</label><br>
+            <input class="email-box" placeholder="   name@domain.com"></input>
+            <div class="next-btn-box">
+                <button class="next-btn">
+                    <p>Next</p>
+                </button>
+            </div>
+            <br>
+            <hr class="solid" data-content="or">
+            <br>
+            <div class="3-party-signup">
+                <button class="google-signup">
+                    <img src="./assets/google-icon.svg" alt="Google icon">
+                    <p>Sign up with Google</p>
+                </button>
+                <button class="fb-signup">
+                    <img src="./assets/fb-logo.svg" alt="Google icon">
+                    <p>Sign up with Facebook</p>
+                </button>
+                <br>
+                <br>
+                <hr class="solid">
+                <br>
+                <br>
+                <span>Already have an account? <a href="#">Log in here.</a></span> <!-- * login page to be linked-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
