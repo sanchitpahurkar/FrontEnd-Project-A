@@ -10,8 +10,20 @@
     margin:25px;
 }
 
+.form-container {
+    display: flex;
+    flex-direction: row  ;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width : 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
 .form {
-    margin-left: 40%;
     width:324px;      
     align-items: center;
 } /*align the form to the center using margin and width properties*/
