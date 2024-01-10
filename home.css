@@ -1,0 +1,16 @@
+@font-face {
+    font-family: myFont;
+    src: url(./FrontEnd-Project-A/assets/fonts/Gotham-Thin.otf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: myFont;
+    background: #000000;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
