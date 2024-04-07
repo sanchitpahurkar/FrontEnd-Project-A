@@ -1,0 +1,176 @@
+* {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /*genereic style properties of Sign up page*/
+    font-weight:bolder;
+}
+
+#logo {
+    margin:25px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row  ;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width : 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.form {
+    width:324px;      
+    align-items: center;
+} /*align the form to the center using margin and width properties*/
+
+.form h1 {
+    font-size: 45px; 
+    font-weight: bolder;
+}
+
+.form label {
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+
+.form input {
+    height: 48px;
+    width: 324px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border-color: #a3a3a3;
+    border-width: 0.5px;
+} /*input field for email*/
+
+.form input:hover {
+    border-color: #FFFFFF;
+}
+
+.next-btn {
+    height: 48px;
+    width: 324px;
+    border-radius: 25px;
+    border-color: #1ED760;
+    margin-top: 20px;
+    background-color: #1ED760;
+} /*NEXT button styles*/
+
+.next-btn p {
+    background-color: #1ED760;
+    color: #121212;
+    font-weight:bolder;
+    font-size: 15px;
+}
+
+.solid-or {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: 330px;
+}
+
+.solid-or::before, .solid-or::after {
+    flex: 1;
+    content: '';
+    padding: 0.5px;
+    background-color: #a3a3a3;
+    margin: 5px;
+}
+/* this is the CSS implementation of Text Dividers */
+
+.google-signup {
+    width: 324px;
+    height: 48px;
+    border-radius: 25px;
+    border-color: #a3a3a3 ;
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+.google-signup:hover {
+    border-color: #FFFFFF;
+}
+
+#google-logo {
+    height: 25px;
+    float: left;
+    margin-left: 20px;
+}
+
+.google-signup p {
+    float: left;
+    margin-left: 65px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.fb-signup {
+    width: 324px;
+    height: 48px;
+    border-radius: 25px;
+    border-color: #a3a3a3 ;
+    border-width: 0.5px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.fb-signup:hover {
+    border-color: #FFFFFF;
+}
+
+#fb-logo {
+    height: 25px;
+    float: left;
+    margin-left: 20px;
+}
+
+.fb-signup p {
+    float: left;
+    margin-left: 55px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+ hr {
+    color: #a3a3a3;
+}
+
+#login-link {
+    float: left;
+    margin-left: 25px;
+    color: #a3a3a3;
+    font-weight: bolder;
+}
+
+#login-link a {
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+/* footer implementation */
+
+.footer p {
+    text-align: center;
+    font-size: small;
+    color: #a3a3a3;
+
+}
+
+.footer a {
+    color: #a3a3a3;
+}
+
+
+/* CSS ends here */
+
